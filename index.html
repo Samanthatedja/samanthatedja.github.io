@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home of NSY crochet</title>
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,700;1,100;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Feather Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- My Style -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="shoppingCart.js">
+  </head>
+  <body>
+    <!-- Navbar start -->
+    <nav class="navbar">
+      <a href="#" class="navbar-logo">Home of NSY Crochet</a>
+
+      <div class="navbar-nav">
+        <a href="#home">Home</a>
+        <a href="#about">Tentang Kami</a>
+        <a href="#menu">Produk</a>
+        <a href="#products">Pesanan</a>
+        <a href="#contact">Kontak</a>
+      </div>
+
+      <div class="navbar-extra">
+        <a href="#" id="search-button"><i data-feather="search"></i></a>
+        <a href="#" id="shopping-cart-button"><i data-feather="shopping-cart"></i></a>
+        <a href="#" id="crochet-menu"><i data-feather="menu"></i></a>
+      </div>
+
+      <!-- Search Form start -->
+      <div class="search-form">
+        <input type="search" id="search-box" placeholder="search here..." />
+        <label for="search-box"><i data-feather="search"></i></label>
+      </div>
+      <!-- Search Form end -->
+
+      <!-- Shopping Cart start -->
+      <div class="shopping-cart">
+      
+        <!-- Elephant2 -->
+        <div class="item">
+          <div class="cart-item">
+            <img src="img/Menu/elephant2.jpg" alt="Rug Crochet" />
+            <div class="item-detail">
+              <h3>Rug Crochet</h3>
+              <div class="item-price">IDR 350K</div>
+            </div>
+            <button class="button-minus" data-id='1'>-</button>
+            <span class="countOfProduct">1</span>
+            <button class="button-plus" data-id='1'>+</button>
+            <a href="#" id="remove-item-button"><i data-feather="trash-2"></i></a>
+          </div>
+        </div>
+
+        <!-- Bear1 -->
+        <div class="item">
+          <div class="cart-item">
+            <img src="img/Menu/bear1.jpg" alt="Bear 1 Crochet" />
+            <div class="item-detail">
+              <h3>Bear 1 Crochet</h3>
+              <div class="item-price">IDR 75K</div>
+            </div>
+            <button class="button-minus" data-id='1'>-</button>
+            <span class="countOfProduct">1</span>
+            <button class="button-plus" data-id='1'>+</button>
+            <a href="#" id="remove-item-button"><i data-feather="trash-2"></i></a>
+          </div>
+        </div>
+
+        <!-- Bear2 -->
+        <div class="item">
+          <div class="cart-item">
+            <img src="img/Menu/bear2.jpg" alt="Bear 2 Crochet" />
+            <div class="item-detail">
+              <h3>Bear 2 Crochet</h3>
+              <div class="item-price">IDR 75K</div>
+            </div>
+            <button class="button-minus" data-id='1'>-</button>
+            <span class="countOfProduct">1</span>
+            <button class="button-plus" data-id='1'>+</button>
+            <a href="#" id="remove-item-button"><i data-feather="trash-2"></i></a>
+          </div>
+        </div>
+
+        <!-- Bunny1 -->
+        <div class="item">
+          <div class="cart-item">
+            <img src="img/Menu/bunny1.jpg" alt="Bunny 1 Crochet" />
+            <div class="item-detail">
+              <h3>Bunny 1 Crochet</h3>
+              <div class="item-price">IDR 75K</div>
+            </div>
+            <button class="button-minus" data-id='1'>-</button>
+            <span class="countOfProduct">1</span>
+            <button class="button-plus" data-id='1'>+</button>
+            <a href="#" id="remove-item-button"><i data-feather="trash-2"></i></a>
+          </div>
+        </div>
+
+        <!-- Bunny2 -->
+        <div class="item">
+          <div class="cart-item">
+            <img src="img/Menu/bunny2.jpg" alt="Bunny 2 Crochet" />
+            <div class="item-detail">
+              <h3>Bunny 2 Crochet</h3>
+              <div class="item-price">IDR 75K</div>
+            </div>
+            <button class="button-minus" data-id='1'>-</button>
+            <span class="countOfProduct">1</span>
+            <button class="button-plus" data-id='1'>+</button>
+            <a href="#" id="remove-item-button"><i data-feather="trash-2"></i></a>
+          </div>
+        </div>
+
+        <!-- bunnyheart -->
+        <div class="item">
+          <div class="cart-item">
+            <img src="img/Menu/heart.Bunny.jpg" alt="Bunny Heart Crochet" />
+            <div class="item-detail">
+              <h3>Bunny Heart Crochet</h3>
+              <div class="item-price">IDR 75K</div>
+            </div>
+            <button class="button-minus" data-id='1'>-</button>
+            <span class="countOfProduct">1</span>
+            <button class="button-plus" data-id='1'>+</button>
+            <a href="#" id="remove-item-button"><i data-feather="trash-2"></i></a>
+          </div>
+        </div>
+
+        <!-- heartpot1 -->
+        <div class="item">
+          <div class="cart-item">
+            <img src="img/Menu/heartpot.jpg" alt="Heart Pot 1 Crochet" />
+            <div class="item-detail">
+              <h3>Heart Pot 1 Crochet</h3>
+              <div class="item-price">IDR 175K</div>
+            </div>
+            <button class="button-minus" data-id='1'>-</button>
+            <span class="countOfProduct">1</span>
+            <button class="button-plus" data-id='1'>+</button>
+            <a href="#" id="remove-item-button"><i data-feather="trash-2"></i></a>
+          </div>
+        </div>
+
+        <!-- heartpot2 -->
+        <div class="item">
+          <div class="cart-item">
+            <img src="img/Menu/heartpot2.jpg" alt="Heart Pot 2 Crochet" />
+            <div class="item-detail">
+              <h3>Heart Pot 2 Crochet</h3>
+              <div class="item-price">IDR 115K</div>
+            </div>
+            <button class="button-minus" data-id='1'>-</button>
+            <span class="countOfProduct">1</span>
+            <button class="button-plus" data-id='1'>+</button>
+            <a href="#" id="remove-item-button"><i data-feather="trash-2"></i></a>
+          </div>
+        </div>
+
+        <!-- mug1 -->
+        <div class="item">
+          <div class="cart-item">
+            <img src="img/Menu/mug1.jpg" alt="Mug Crochet" />
+            <div class="item-detail">
+              <h3>Mug Crochet</h3>
+              <div class="item-price">IDR 25K</div>
+            </div>
+            <button class="button-minus" data-id='1'>-</button>
+            <span class="countOfProduct">1</span>
+            <button class="button-plus" data-id='1'>+</button>
+            <a href="#" id="remove-item-button"><i data-feather="trash-2"></i></a>
+          </div>
+        </div>
+
+        <h4 class="empty">Your shopping cart is empty</h4>
+      </div>
+
+      <!-- Shopping Cart end -->
+    </nav>
+    <!-- Navbar end -->
+
+    <!-- Hero Section start -->
+    <section class="hero" id="home">
+      <main class="content">
+        <h1>Handmade by NSY Crochet</h1>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur,
+          rerum.
+        </p>
+        <a href="#menu" class="cta">Beli Sekarang</a>
+      </main>
+    </section>
+    <!-- Hero Section end -->
+
+    <!-- About Section start -->
+    <section class="about" id="about">
+      <h2>Tentang Kami</h2>
+
+      <div class="row">
+        <div class="about-img">
+          <img src="img/wooden1.jpg" alt="Tentang Kami" />
+        </div>
+        <div class="content">
+          <h3>Kenapa memilih produk kami?</h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente
+            aspernatur quod dolores eius, reprehenderit neque.
+          </p>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim hic
+            quibusdam expedita ipsa quisquam, laborum neque cum totam voluptatum
+            quis.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- About Section end -->
+
+    <!-- Menu Section start -->
+    <section class="menu" id="menu">
+      <h2>Produk Kami</h2>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates
+        ipsum quas dignissimos reiciendis fugiat.
+      </p>
+
+      <div class="row">
+        <!-- elephant2 -->
+        <div class="menu-card">
+          <div class="menu-icons">
+            <a href="#"><i data-feather="shopping-cart"></i></a>
+            <a href="#" class="item-detail-button1"
+              ><i data-feather="eye"></i
+            ></a>
+          </div>
+          <img
+            src="img/Menu/elephant2.jpg"
+            alt="Rug Crochet"
+            class="menu-card-img"
+          />
+          <h3 class="menu-card-title">- Rug Crochet -</h3>
+          <p class="menu-card-price">IDR 350K <span>IDR 370K</span></p>
+        </div>
+
+        <!-- bear1 -->
+        <div class="menu-card">
+          <div class="menu-icons">
+            <a href="#"><i data-feather="shopping-cart"></i></a>
+            <a href="#" class="item-detail-button2"
+              ><i data-feather="eye"></i
+            ></a>
+          </div>
+          <img
+            src="img/Menu/bear1.jpg"
+            alt="Bear 1 Crochet"
+            class="menu-card-img"
+          />
+          <h3 class="menu-card-title">- Bear 1 Crochet -</h3>
+          <p class="menu-card-price">IDR 75K <span>IDR 95K</span></p>
+        </div>
+
+        <!-- bear2 -->
+        <div class="menu-card">
+          <div class="menu-icons">
+            <a href="#"><i data-feather="shopping-cart"></i></a>
+            <a href="#" class="item-detail-button3"
+              ><i data-feather="eye"></i
+            ></a>
+          </div>
+          <img
+            src="img/Menu/bear2.jpg"
+            alt="Bear 2 Crochet"
+            class="menu-card-img"
+          />
+          <h3 class="menu-card-title">- Bear 2 Crochet -</h3>
+          <p class="menu-card-price">IDR 75K <span>IDR 95K</span></p>
+        </div>
+
+        <!-- bunny1 -->
+        <div class="menu-card">
+          <div class="menu-icons">
+            <a href="#"><i data-feather="shopping-cart"></i></a>
+            <a href="#" class="item-detail-button4"
+              ><i data-feather="eye"></i
+            ></a>
+          </div>
+          <img
+            src="img/Menu/bunny1.jpg"
+            alt="Bunny 1 Crochet"
+            class="menu-card-img"
+          />
+          <h3 class="menu-card-title">- Bunny 1 Crochet -</h3>
+          <p class="menu-card-price">IDR 75K <span>IDR 95K</span></p>
+        </div>
+
+        <!-- bunny2 -->
+        <div class="menu-card">
+          <div class="menu-icons">
+            <a href="#"><i data-feather="shopping-cart"></i></a>
+            <a href="#" class="item-detail-button5"
+              ><i data-feather="eye"></i
+            ></a>
+          </div>
+          <img
+            src="img/Menu/bunny2.jpg"
+            alt="Bunny 2 Crochet"
+            class="menu-card-img"
+          />
+          <h3 class="menu-card-title">- Bunny 2 Crochet -</h3>
+          <p class="menu-card-price">IDR 75K <span>IDR 95K</span></p>
+        </div>
+
+        <!-- bunnyheart -->
+        <div class="menu-card">
+          <div class="menu-icons">
+            <a href="#"><i data-feather="shopping-cart"></i></a>
+            <a href="#" class="item-detail-button6"
+              ><i data-feather="eye"></i
+            ></a>
+          </div>
+          <img
+            src="img/Menu/heart.Bunny.jpg"
+            alt="Bunny Heart Crochet"
+            class="menu-card-img"
+          />
+          <h3 class="menu-card-title">- Bunny Heart Crochet -</h3>
+          <p class="menu-card-price">IDR 75K <span>IDR 95K</span></p>
+        </div>
+
+        <!-- heartpot1 -->
+        <div class="menu-card">
+          <div class="menu-icons">
+            <a href="#"><i data-feather="shopping-cart"></i></a>
+            <a href="#" class="item-detail-button7"
+              ><i data-feather="eye"></i
+            ></a>
+          </div>
+          <img
+            src="img/Menu/heartpot.jpg"
+            alt="Heart Pot 1 Crochet"
+            class="menu-card-img"
+          />
+          <h3 class="menu-card-title">- Heart Pot 1 Crochet -</h3>
+          <p class="menu-card-price">IDR 175K <span>IDR 195K</span></p>
+        </div>
+
+        <!-- heartpot2 -->
+        <div class="menu-card">
+          <div class="menu-icons">
+            <a href="#"><i data-feather="shopping-cart"></i></a>
+            <a href="#" class="item-detail-button8"
+              ><i data-feather="eye"></i
+            ></a>
+          </div>
+          <img
+            src="img/Menu/heartpot2.jpg"
+            alt="Heart Pot 2 Crochet"
+            class="menu-card-img"
+          />
+          <h3 class="menu-card-title">- Heart Pot 2 Crochet -</h3>
+          <p class="menu-card-price">IDR 115K <span>IDR 135K</span></p>
+        </div>
+
+        <!-- mug1 -->
+        <div class="menu-card">
+          <div class="menu-icons">
+            <a href="#"><i data-feather="shopping-cart"></i></a>
+            <a href="#" class="item-detail-button9"
+              ><i data-feather="eye"></i
+            ></a>
+          </div>
+          <img
+            src="img/Menu/mug1.jpg"
+            alt="Mug Crochet"
+            class="menu-card-img"
+          />
+          <h3 class="menu-card-title">- Mug Crochet -</h3>
+          <p class="menu-card-price">IDR 25K <span>IDR 45K</span></p>
+        </div>
+      </div>
+    </section>
+    <!-- Menu Section end -->
+
+    <!-- Products Section start -->
+    <section class="products" id="products">
+      <h2>Pesanan Anda</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus
+        provident odit tenetur cumque ipsa sint.
+      </p>
+
+      <div class="row">
+        <div class="product-card">
+          <div class="product-image">
+            <img src="img/Pesanan/christmas.jpg" alt="Product 1" />
+          </div>
+          <div class="product-content">
+            <h3>Kami akan membuat sesuai pesanan anda</h3>
+            <div class="product-stars">
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+            </div>
+            <div class="product-price">mulai IDR 25K/item</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Products Section end -->
+
+    <!-- Contact Section start -->
+    <section id="contact" class="contact">
+      <h2>Kontak Kami</h2>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque,
+        laboriosam!
+      </p>
+
+      <div class="row">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d358.49796970926457!2d112.72955642549964!3d-7.314257175310931!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1s6%20Jl.%20Ketintang%20Baru%20II%2C%20Surabaya%2C%20East%20Java!5e0!3m2!1sen!2sid!4v1698482231275!5m2!1sen!2sid"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          class="map"
+        ></iframe>
+
+        <form action="">
+          <div class="input-group">
+            <i data-feather="user"></i>
+            <input type="text" placeholder="Nama" />
+          </div>
+
+          <div class="input-group">
+            <i data-feather="mail"></i>
+            <input type="text" placeholder="Email" />
+          </div>
+
+          <div class="input-group">
+            <i data-feather="phone"></i>
+            <input type="text" placeholder="No Hp" />
+          </div>
+          <button type="submit" class="btn">Kirim Pesan</button>
+        </form>
+      </div>
+    </section>
+    <!-- Contact Section end -->
+
+    <!-- Footer start -->
+    <footer>
+      <div class="socials">
+        <a href="#"><i data-feather="instagram"></i></a>
+        <a href="#"><i data-feather="twitter"></i></a>
+        <a href="#"><i data-feather="facebook"></i></a>
+
+        <div class="links">
+          <a href="#home">Home</a>
+          <a href="#about">Tentang Kami</a>
+          <a href="#menu">Produk</a>
+          <a href="#contact">Kontak</a>
+        </div>
+
+        <div class="credit">
+          <p>Created by <a href="">Sam & Mom</a>. | &copy; 2023.</p>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer end -->
+
+    <!-- Modal Box Item Detail start -->
+    <div class="menu-modal">
+      <!-- elephant2 -->
+      <div class="modal" id="item-detail-modal1">
+        <div class="modal-container">
+          <a href="#" class="close-icon"><i data-feather="x"></i></a>
+          <div class="modal-content">
+            <img src="img/Menu/elephant2.jpg" alt="Rug Crochet" />
+            <div class="Menu-content">
+              <h3>Rug Crochet</h3>
+              <div class="menu-stars">
+                <i data-feather="star" class="star-full"></i>
+                <i data-feather="star" class="star-full"></i>
+                <i data-feather="star" class="star-full"></i>
+                <i data-feather="star" class="star-full"></i>
+                <i data-feather="star" class="star-full"></i>
+              </div>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam
+                unde perspiciatis quo error accusantium minima? Non, quos
+                eligendi facere tempore illum iusto quidem nostrum rem.
+              </p>
+              <div class="menu-price">IDR 350K <span>IDR 370K</span></div>
+              <a href="#"
+                ><i data-feather="shopping-cart"></i><span>add to cart</span></a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- bear1 -->
+      <div class="modal" id="item-detail-modal2">
+        <div class="modal-container">
+          <a href="#" class="close-icon"><i data-feather="x"></i></a>
+          <div class="modal-content">
+            <img src="img/Menu/bear1.jpg" alt="Bear 1 Crochet" />
+            <div class="Menu-content">
+              <h3>Bear 1 Crochet</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam
+                unde perspiciatis quo error accusantium minima? Non, quos
+                eligendi facere tempore illum iusto quidem nostrum rem.
+              </p>
+              <div class="menu-stars">
+                <i data-feather="star" class="star-full"></i>
+                <i data-feather="star" class="star-full"></i>
+                <i data-feather="star" class="star-full"></i>
+                <i data-feather="star" class="star-full"></i>
+                <i data-feather="star" class="star-full"></i>
+              </div>
+              <div class="menu-price">IDR 75K <span>IDR 95K</span></div>
+              <a href="#"
+                ><i data-feather="shopping-cart"></i><span>add to cart</span></a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- bear2 -->
+      <div class="modal" id="item-detail-modal3">
+        <div class="modal-container">
+          <a href="#" class="close-icon"><i data-feather="x"></i></a>
+          <div class="modal-content">
+            <img src="img/Menu/bear2.jpg" alt="Bear 2 Crochet" />
+            <div class="Menu-content">
+              <h3>Bear 2 Crochet</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam
+                unde perspiciatis quo error accusantium minima? Non, quos
+                eligendi facere tempore illum iusto quidem nostrum rem.
+              </p>
+              <div class="menu-stars">
+                <i data-feather="star" class="star-full"></i>
+                <i data-feather="star" class="star-full"></i>
+                <i data-feather="star" class="star-full"></i>
+                <i data-feather="star" class="star-full"></i>
+                <i data-feather="star" class="star-full"></i>
+              </div>
+              <div class="menu-price">IDR 75K <span>IDR 95K</span></div>
+              <a href="#"
+                ><i data-feather="shopping-cart"></i><span>add to cart</span></a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- bunny1 -->
+      <div class="modal" id="item-detail-modal4">
+        <div class="modal-container">
+          <a href="#" class="close-icon"><i data-feather="x"></i></a>
+          <div class="modal-content">
+            <img src="img/Menu/bunny1.jpg" alt="Bunny 1 Crochet" />
+            <div class="Menu-content">
+              <h3>Bunny 1 Crochet</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam
+                unde perspiciatis quo error accusantium minima? Non, quos
+                eligendi facere tempore illum iusto quidem nostrum rem.
+              </p>
+              <div class="menu-stars">
+                <i data-feather="star" class="star-full"></i>
+                <i data-feather="star" class="star-full"></i>
+                <i data-feather="star" class="star-full"></i>
+                <i data-feather="star" class="star-full"></i>
+                <i data-feather="star" class="star-full"></i>
+              </div>
+              <div class="menu-price">IDR 75K <span>IDR 95K</span></div>
+              <a href="#"
+                ><i data-feather="shopping-cart"></i><span>add to cart</span></a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- bunny2 -->
+      <div class="modal" id="item-detail-modal5">
+        <div class="modal-container">
+          <a href="#" class="close-icon"><i data-feather="x"></i></a>
+          <div class="modal-content">
+            <img src="img/Menu/bunny2.jpg" alt="Bunny 2 Crochet" />
+            <div class="Menu-content">
+              <h3>Bunny 2 Crochet</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam
+                unde perspiciatis quo error accusantium minima? Non, quos
+                eligendi facere tempore illum iusto quidem nostrum rem.
+              </p>
+              <div class="menu-stars">
+                <i data-feather="star" class="star-full"></i>
+                <i data-feather="star" class="star-full"></i>
+                <i data-feather="star" class="star-full"></i>
+                <i data-feather="star" class="star-full"></i>
+                <i data-feather="star" class="star-full"></i>
+              </div>
+              <div class="menu-price">IDR 75K <span>IDR 95K</span></div>
+              <a href="#"
+                ><i data-feather="shopping-cart"></i><span>add to cart</span></a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- bunnyheart -->
+      <div class="modal" id="item-detail-modal6">
+        <div class="modal-container">
+          <a href="#" class="close-icon"><i data-feather="x"></i></a>
+          <div class="modal-content">
+            <img src="img/Menu/heart.Bunny.jpg" alt="Bunny Heart Crochet" />
+            <div class="Menu-content">
+              <h3>Bunny Heart Crochet</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam
+                unde perspiciatis quo error accusantium minima? Non, quos
+                eligendi facere tempore illum iusto quidem nostrum rem.
+              </p>
+              <div class="menu-stars">
+                <i data-feather="star" class="star-full"></i>
+                <i data-feather="star" class="star-full"></i>
+                <i data-feather="star" class="star-full"></i>
+                <i data-feather="star" class="star-full"></i>
+                <i data-feather="star" class="star-full"></i>
+              </div>
+              <div class="menu-price">IDR 75K <span>IDR 95K</span></div>
+              <a href="#"
+                ><i data-feather="shopping-cart"></i><span>add to cart</span></a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- heartpot1 -->
+      <div class="modal" id="item-detail-modal7">
+        <div class="modal-container">
+          <a href="#" class="close-icon"><i data-feather="x"></i></a>
+          <div class="modal-content">
+            <img src="img/Menu/heartpot.jpg" alt="Heart Pot 1 Crochet" />
+            <div class="Menu-content">
+              <h3>Heart Pot 1 Crochet</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam
+                unde perspiciatis quo error accusantium minima? Non, quos
+                eligendi facere tempore illum iusto quidem nostrum rem.
+              </p>
+              <div class="menu-stars">
+                <i data-feather="star" class="star-full"></i>
+                <i data-feather="star" class="star-full"></i>
+                <i data-feather="star" class="star-full"></i>
+                <i data-feather="star" class="star-full"></i>
+                <i data-feather="star" class="star-full"></i>
+              </div>
+              <div class="menu-price">IDR 175K <span>IDR 195K</span></div>
+              <a href="#"
+                ><i data-feather="shopping-cart"></i><span>add to cart</span></a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- heartpot2 -->
+      <div class="modal" id="item-detail-modal8">
+        <div class="modal-container">
+          <a href="#" class="close-icon"><i data-feather="x"></i></a>
+          <div class="modal-content">
+            <img src="img/Menu/heartpot2.jpg" alt="Heart Pot 2 Crochet" />
+            <div class="Menu-content">
+              <h3>Heart Pot 2 Crochet</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam
+                unde perspiciatis quo error accusantium minima? Non, quos
+                eligendi facere tempore illum iusto quidem nostrum rem.
+              </p>
+              <div class="menu-stars">
+                <i data-feather="star" class="star-full"></i>
+                <i data-feather="star" class="star-full"></i>
+                <i data-feather="star" class="star-full"></i>
+                <i data-feather="star" class="star-full"></i>
+                <i data-feather="star" class="star-full"></i>
+              </div>
+              <div class="menu-price">IDR 115K <span>IDR 135K</span></div>
+              <a href="#"
+                ><i data-feather="shopping-cart"></i><span>add to cart</span></a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- mug1 -->
+      <div class="modal" id="item-detail-modal9">
+        <div class="modal-container">
+          <a href="#" class="close-icon"><i data-feather="x"></i></a>
+          <div class="modal-content">
+            <img src="img/Menu/mug1.jpg" alt="Mug Crochet" />
+            <div class="Menu-content">
+              <h3>Mug Crochet</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam
+                unde perspiciatis quo error accusantium minima? Non, quos
+                eligendi facere tempore illum iusto quidem nostrum rem.
+              </p>
+              <div class="menu-stars">
+                <i data-feather="star" class="star-full"></i>
+                <i data-feather="star" class="star-full"></i>
+                <i data-feather="star" class="star-full"></i>
+                <i data-feather="star" class="star-full"></i>
+                <i data-feather="star" class="star-full"></i>
+              </div>
+              <div class="menu-price">IDR 25K <span>IDR 45K</span></div>
+              <a href="#"
+                ><i data-feather="shopping-cart"></i><span>add to cart</span></a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal Box Item Detail end -->
+
+    <!-- Feather Icons -->
+    <script>
+      feather.replace();
+    </script>
+
+    <!-- My Javascript -->
+    <script src="js/script.js"></script>
+    <script src="shoppingCart.js"></script>
+  </body>
+</html>
